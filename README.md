@@ -24,7 +24,5 @@ The model begins by extracting 3D pose landmarks for each frame in a video using
 After generating the motion curve, the model transitions to evaluating synchronization among rowers. The motion curves of individual rowers are compared using pairwise similarity metrics, such as Mean Squared Error (MSE), Pearson Correlation, and Area Difference. These metrics quantitatively assess the alignment of stroke timing and movement patterns. To identify the most out-of-sync rower, the k-lowest similarity scores are averaged for each rower, emphasizing the most significant discrepancies in synchronization. The results are used to pinpoint specific rowers requiring adjustment, providing actionable insights for improving team cohesion. This comprehensive process ensures an objective and precise evaluation of rowing synchronicity, supporting both performance optimization and targeted coaching interventions.
 
 ![image](https://github.com/user-attachments/assets/04ae0446-9efc-4862-b77f-c7c016e31f3f)
-![image](https://github.com/user-attachments/assets/de6c955a-d410-4925-9471-459c90dfed6b)
-![image](https://github.com/user-attachments/assets/550917bd-0003-42a5-a8a4-a85b4793a79f)
-
-
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/de6c955a-d410-4925-9471-459c90dfed6b" />
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/550917bd-0003-42a5-a8a4-a85b4793a79f" />
